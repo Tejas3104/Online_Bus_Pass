@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/text_home"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Welcome to our innovative online bus pass app!
+Say goodbye to long queues and paper tickets.
+With our user-friendly interface, you can easily purchase and manage your bus passes from the comfort of your fingertips. Enjoy seamless travel experiences with our secure payment system and instant pass delivery. Whether you're a daily commuter or an occasional traveler, our app ensures hassle-free transportation at your convenience. Download now and embark on a journey of effortless mobility!"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:layout_margin="8dp"/>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
